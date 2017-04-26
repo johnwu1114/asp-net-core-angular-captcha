@@ -1,1 +1,29 @@
 ﻿<h1>{{title}}</h1>
+
+<div>{{message}}</div>
+<br />
+
+<form *ngIf="!isLogin">
+    <div>
+        <label>Username</label>
+        <input type="text" name="username" [(ngModel)]="username" />
+    </div>
+    <div>
+        <label>Password</label>
+        <input type="password" name="password" [(ngModel)]="password" />
+    </div>
+    <div>
+        <label>Captcha</label>
+        <input type="text" name="code" [(ngModel)]="code" class="captcha"
+               [ngStyle]="{'background-image': 'url(' + captchaUrl + ')'}" />
+    </div>
+    <div class="center">
+        <input type="button" value="Login" (click)="login()" />
+        <input type="button" value="Clear" (click)="clear()" />
+    </div>
+</form>
+
+<div *ngIf="isLogin">
+    Hello~ {{username}}
+    <input type="button" value="Logout" (click)="logout()" />
+</div>

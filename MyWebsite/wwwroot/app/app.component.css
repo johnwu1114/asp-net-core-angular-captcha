@@ -1,0 +1,25 @@
+﻿form {
+    width: 350px;
+}
+
+div {
+    margin: 5px;
+}
+
+label {
+    min-width: 120px;
+    float: left;
+}
+
+input[type=text], input[type=password] {
+    height: 24px;
+}
+
+.captcha {
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+
+.center {
+    text-align: center;
+}
