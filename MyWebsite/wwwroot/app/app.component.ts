@@ -23,6 +23,10 @@ export class AppComponent {
     code: string;
 
     constructor(private http: Http) {
+        this.loadUserInfo();
+    }
+
+    loadUserInfo(): void {
         this.http.get(this.api).subscribe(
             (response) => {
                 let result: ResultModel = response.json();
