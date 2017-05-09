@@ -1,9 +1,11 @@
 This repository is sample code for ASP.NET Core & Angular 4 (Angular 2) SPA.  
 Use the Visual Studio 2017 to development.  
 
-# ASP.NET Core + Angular 4 教學
+# ASP.NET Core + Angular 4 教學 - Captcha
 
 本篇將介紹用 ASP.NET Core 自製圖形驗證碼，Angular 4 做登入頁面的範例跟 ASP.NET Core 互動。  
+
+Blog:  
 [ASP.NET Core + Angular 4 教學 - Captcha]https://blog.johnwu.cc/article/asp-net-core-angular-4-%E6%95%99%E5%AD%B8-captcha.html
 
 程式碼延續前兩篇的範例：  
