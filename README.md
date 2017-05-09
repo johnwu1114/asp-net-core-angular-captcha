@@ -3,9 +3,10 @@ Use the Visual Studio 2017 to development.
 
 # ASP.NET Core + Angular 4 教學
 
+本篇將介紹用 ASP.NET Core 自製圖形驗證碼，Angular 4 做登入頁面的範例跟 ASP.NET Core 互動。  
+[ASP.NET Core + Angular 4 教學 - Captcha]https://blog.johnwu.cc/article/asp-net-core-angular-4-%E6%95%99%E5%AD%B8-captcha.html
 
-介紹如何從無到有建立 ASP.NET Core 專案及建立 Angular 4 SPA 網站。  
-
+程式碼延續前兩篇的範例：  
 [ASP.NET Core + Angular 4 教學 - 從無到有](https://blog.johnwu.cc/article/asp-net-core-angular-4-%E6%95%99%E5%AD%B8-%E5%BE%9E%E7%84%A1%E5%88%B0%E6%9C%89.html)  
 [ASP.NET Core + Angular 4 教學 - Webpack打包](https://blog.johnwu.cc/article/asp-net-core-angular-4-%E6%95%99%E5%AD%B8-webpack.html)
 
